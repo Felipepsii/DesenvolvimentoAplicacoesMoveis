@@ -4,6 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#FD1111"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button_action"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#F30D0D"
+        android:backgroundTint="@color/black"
+        android:text="Me clica ai amigão"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_title"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_title"
+        app:layout_constraintTop_toBottomOf="@+id/text_title"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="364dp"
+        android:layout_height="245dp"
+        android:text="Hello World"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="259dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
